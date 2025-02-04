@@ -19,7 +19,12 @@
 #read -p "enter name here:" name
 #echo "your name is $name"
 
-read -p "enter username here:" username
-sudo adduser $username
+#create user
+#read -p "enter username here:" username
+#sudo adduser $username
 
 
+
+#Arguments
+read -p "add name here:" name
+echo "the name is $name $0 $1 $2 "
