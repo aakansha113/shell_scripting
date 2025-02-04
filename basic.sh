@@ -19,6 +19,7 @@
 #read -p "enter name here:" name
 #echo "your name is $name"
 
-sudo useradd -m $username
-echo "new user added"
+read -p "enter username here:" username
+sudo adduser $username
+
 
