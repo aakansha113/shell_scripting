@@ -7,7 +7,7 @@ echo "hello how are you?"
 #using read permission
 echo "what is your name?"
 read name
-echo "hello,$name"
+echo "hello,$name and $(date)"
 
 
 #using variable
