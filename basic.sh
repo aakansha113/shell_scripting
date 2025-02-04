@@ -17,5 +17,5 @@ echo "hello,i am $name,and i am from $city"
 
 #using prompt
 read -p "enter name here" name
-echo "your name is $name
+echo "your name is $name"
 
